@@ -4,8 +4,8 @@ import React from 'react';
 const LoginPage = () => {
   return (
     <div className="flex h-screen">
-      <div className="w-1/2 bg-gray-100 flex items-center justify-center">
-        <img src="/images/loginbanner.png" alt="Login banner" className="max-w-full h-auto" />
+      <div className="w-1/2 flex items-center justify-center">
+        <img src="/images/loginbanner.png" alt="Login banner" className="max-w-full p-14 h-auto" />
       </div>
       <div className="w-1/2 flex items-center justify-center">
         <div className="w-full max-w-md">

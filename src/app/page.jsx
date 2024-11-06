@@ -45,7 +45,9 @@ const Page = () => {
 
   return (
     <main className='w-full'>
-      <Sidebar />
+      <div className='pt-5'>
+        <Sidebar />
+      </div>
       <div className='flex p-20 flex-col'>
         <div className='flex flex-row ml-10 justify-start items-center'>
           <div className='h-8 w-4 bg-red-600 rounded-md mr-5'> </div>
@@ -55,7 +57,7 @@ const Page = () => {
           <h1 className='text-4xl font-bold pr-12'>Flash Sales</h1>
           <CountdownTimer />
         </div>
-        <div className='absolute right-14 bottom-3.5 flex space-x-2 p-2'>
+        <div className='absolute right-14 bottom-16 flex space-x-2 p-2'>
             <button
               onClick={() => scroll('left')}
               className='p-2 bg-gray-200 rounded-full flex items-center justify-center w-10 h-10'

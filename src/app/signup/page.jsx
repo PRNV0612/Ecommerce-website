@@ -4,8 +4,8 @@ import Image from 'next/image';
 const SignUpPage = () => {
   return (
     <div className="flex h-screen">
-      <div className="w-1/2 bg-gray-100 flex items-center justify-center">
-        <img src="/images/loginbanner.png" alt="Login banner" className="max-w-full h-auto" />
+      <div className="w-1/2 flex items-center justify-center">
+        <img src="/images/loginbanner.png" alt="Login banner" className="max-w-full p-14 h-auto" />
       </div>
       <div className="w-1/2 flex items-center justify-center">
         <div className="w-full max-w-md">
@@ -47,7 +47,7 @@ const SignUpPage = () => {
                 href="#"
                 className="flex justify-center items-center gap-3 border-2 w-80 py-1 rounded-md align-baseline font-bold text-sm"
               >
-               <Image src="/images/Icon-Google.png" width={18} height={18} alt="Google" className="h-10 transition-all duration-300 hover:brightness-110" />
+               <Image src="/images/Icon-Google.png" width={26} height={18} alt="Google" className="h-10 transition-all aspect-square duration-300 hover:brightness-110" />
                 <p className=''>Sign up with Google</p>
               </a>
             </div>
